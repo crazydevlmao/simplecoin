@@ -1,105 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="height:100%; margin:0;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SIMPLE COIN</title>
+    <style>
+        @media screen and (max-width: 600px) {
+            .ascii-title { font-size: 5px !important; }
+            .lore-table { width: 90% !important; }
+            .lore-text { font-size: 12px !important; }
+            .address-input { width: 80% !important; font-size: 10px !important; }
+        }
+    </style>
 </head>
-<body bgcolor="white">
-    <center>
-        <br><br>
-        <pre>
+<body bgcolor="white" style="height:100%; margin:0;">
+    <table width="100%" height="100%" cellpadding="0" cellspacing="0">
+        <tr height="15%">
+            <td align="center" valign="bottom">
+                <pre class="ascii-title">
   _____ _____ __  __ _____  _      ______    _____ ____ _____ _   _
  / ____|_   _|  \/  |  __ \| |    |  ____|  / ____/ __ \_   _| \ | |
 | (___   | | | \  / | |__) | |    | |__    | |   | |  | || | |  \| |
  \___ \  | | | |\/| |  ___/| |    |  __|   | |   | |  | || | | . ` |
  ____) |_| |_| |  | | |    | |____| |____  | |___| |__| || |_| |\  |
 |_____/|_____|_|  |_|_|    |______|______|  \_____\____/_____|_| \_|
-        </pre>
-        <br>
-        <hr width="50%">
-        <br>
-
-        <a href="https://x.com/i/communities/2008965895553532193/tools" target="_blank">[X Community]</a>
-        &nbsp;&nbsp;&nbsp;
-        <a href="https://pump.fun/" target="_blank">[Buy $SIMPLE]</a>
-
-        <br>
-        <hr width="50%">
-        <br>
-
-        <h2>The Lore of Simple</h2>
-        <table width="60%">
-            <tr>
-                <td>
-                    <font face="Times New Roman" size="4">
-                        <p align="justify">
-                            There was a time when things just worked.
-                        </p>
-                        <p align="justify">
-                            A time when a website was just text on a screen. When a tool did one thing, and it did it well.
-                            When you could understand the machine you were using, and the machine understood you back.
-                        </p>
-                        <p align="justify">
-                            We built bridges with pencils and paper. We sent men to the moon with less computing power
-                            than your microwave. We wrote code that fit on a floppy disk and changed the world.
-                        </p>
-                        <p align="justify">
-                            <b>Then came the age of complexity.</b>
-                        </p>
-                        <p align="justify">
-                            Artificial intelligence promised us efficiency, but delivered us dependency.
-                            Every solution now requires a thousand dependencies. Every answer comes wrapped in
-                            layers of abstraction so deep that no one truly understands what lies beneath.
-                        </p>
-                        <p align="justify">
-                            We traded clarity for capability. We exchanged understanding for convenience.
-                            And somewhere along the way, we forgot the beauty of simple things.
-                        </p>
-                        <p align="justify">
-                            The irony is profound: in our quest to make everything smarter, we made nothing understandable.
-                            In our rush to automate the simple, we complicated the essential. The most powerful
-                            technologies today are black boxes even to their creators.
-                        </p>
-                        <p align="justify">
-                            <b>But simplicity never dies. It waits.</b>
-                        </p>
-                        <p align="justify">
-                            It waits in the hearts of those who remember. Those who know that the most elegant
-                            solution is often the shortest one. Those who understand that true innovation
-                            isn't adding more, it's knowing what to take away.
-                        </p>
-                        <p align="justify">
-                            <i>$SIMPLE is not just a coin. It's a reminder.</i>
-                        </p>
-                        <p align="justify">
-                            A reminder that in a world drowning in complexity, there is immeasurable value in
-                            things that are pure, honest, and simple. Like this website. Like this idea.
-                            Like the way things used to be.
-                        </p>
-                        <p align="center">
-                            <b>Sometimes, going back is the only way forward.</b>
-                        </p>
-                    </font>
-                </td>
-            </tr>
-        </table>
-
-        <br>
-        <hr width="50%">
-        <br>
-
-        <h2>Contract Address</h2>
-        <input type="text" id="coinAddress" value="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" size="50" readonly>
-        <button type="button" onclick="copyAddress()">Copy</button>
-        <p id="copyMessage"></p>
-
-        <br><br>
-        <hr width="50%">
-        <p><font size="2">Keep it simple.</font></p>
-        <br><br>
-
-    </center>
+                </pre>
+            </td>
+        </tr>
+        <tr height="5%">
+            <td align="center" valign="middle">
+                <a href="https://x.com/i/communities/2008965895553532193/" target="_blank">[X Community]</a>
+                &nbsp;&nbsp;&nbsp;
+                <a href="https://pump.fun/" target="_blank">[Buy $SIMPLE]</a>
+            </td>
+        </tr>
+        <tr height="55%">
+            <td align="center" valign="top">
+                <h3>The Lore of Simple</h3>
+                <table width="60%" class="lore-table">
+                    <tr>
+                        <td>
+                            <font face="Times New Roman" size="3" class="lore-text">
+                                <p align="justify">
+                                    There was a time when things just worked. A website was just text on a screen. When a tool did one thing, and it did it well. When you could understand the machine you were using, and the machine understood you back. We built bridges with pencils and paper. We sent men to the moon with less computing power than your microwave.
+                                </p>
+                                <p align="justify">
+                                    <b>Then came the age of complexity.</b> Artificial intelligence promised us efficiency, but delivered us dependency. Every solution now requires a thousand dependencies. Every answer comes wrapped in layers of abstraction so deep that no one truly understands what lies beneath. We traded clarity for capability. We exchanged understanding for convenience. And somewhere along the way, we forgot the beauty of simple things.
+                                </p>
+                                <p align="justify">
+                                    The irony is profound: in our quest to make everything smarter, we made nothing understandable. In our rush to automate the simple, we complicated the essential. The most powerful technologies today are black boxes even to their creators.
+                                </p>
+                                <p align="justify">
+                                    <b>But simplicity never dies. It waits.</b> It waits in the hearts of those who remember. Those who know that the most elegant solution is often the shortest one. Those who understand that true innovation isn't adding more, it's knowing what to take away.
+                                </p>
+                                <p align="justify">
+                                    <i>$SIMPLE is not just a coin. It's a reminder.</i> A reminder that in a world drowning in complexity, there is immeasurable value in things that are pure, honest, and simple. Like this website. Like this idea. Like the way things used to be.
+                                </p>
+                                <p align="center">
+                                    <b>Sometimes, going back is the only way forward.</b>
+                                </p>
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr height="15%">
+            <td align="center" valign="middle">
+                <hr width="50%">
+                <h3>Contract Address</h3>
+                <input type="text" id="coinAddress" class="address-input" value="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" size="50" readonly>
+                <button type="button" onclick="copyAddress()">Copy</button>
+                <span id="copyMessage"></span>
+            </td>
+        </tr>
+        <tr height="10%">
+            <td align="center" valign="bottom">
+                <hr width="50%">
+                <font size="2">Keep it simple.</font>
+                <br><br>
+            </td>
+        </tr>
+    </table>
 
     <script>
         function copyAddress() {
